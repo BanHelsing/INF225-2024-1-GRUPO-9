@@ -18,42 +18,21 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
     />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script>
   </head>
-  <header class="pico-background-violet-100">
-    <main class="container">
-      <nav >
-        <ul>
-          <ul>
-            <img
-              src="./assets/images/cardiogram.png"
-              style="width: 100px; padding-left: 20px"
-              alt=""
-            />
-            <h2
-              style="
-                font-family: 'Lucida Sans', 'Lucida Sans Regular',
-                  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
-                  sans-serif;
-                padding-left: 10px;
-                padding-top: 13px;
-              "
-            >
-              SRH
-            </h2>
-          </ul>
-        </ul>
-        <ul>
-          <li><a href="index.html" class="contrast">Home</a></li>
-          <li><a href="#" class="contrast">Revisar Horas</a></li>
-          <li><a href="agendar.html" class="contrast">Agendar</a></li>
-          <li><button class="primary">Iniciar Sesion</button></li>
-          <li><button class="primary">Registrarse</button></li>
-        </ul>
-      </nav>
-    </main>
-    
-
-  </header>
+  
+  <div id="header"></div>
+  
   <body>
 
     <main class="container">

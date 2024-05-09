@@ -56,7 +56,6 @@
             </div>
         </header>
     </div>
-      
     <section class="banner" id="top" style="background-image: url(img/homepage-banner-image-1920x700.jpg);">
         <div class="container">
             <div class="row">
