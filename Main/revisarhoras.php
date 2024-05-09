@@ -1,3 +1,8 @@
+<?php
+    include('./header.php');
+    include('./config/db.php');
+?>
+
 <!DOCTYPE html>
 <html data-theme="light" lang="en" style= "background-color:#fff1ee">
   <head>
@@ -18,20 +23,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
     />
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-    </script>
-    <script> 
-    $(function(){
-      $("#header").load("header.html"); 
-      $("#footer").load("footer.html"); 
-    });
-    </script>
   </head>
-  
-  <div id="header"></div>
   
   <body style= "background-color:#fff1ee">
     <main class="container">

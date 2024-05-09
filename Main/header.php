@@ -1,3 +1,7 @@
+<?php
+    include('./config/db.php');
+?>
+
 <!DOCTYPE html>
 <html data-theme="light" lang="en" style= "background-color:#fff1ee">
   <head>
