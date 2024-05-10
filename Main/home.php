@@ -49,14 +49,6 @@
               />
             </label>
           </fieldset>
-          <select name="tipo-cuenta" aria-label="Selecciona tipo de cuenta" required>
-            <option selected disabled value="">
-              Selecciona tipo de cuenta
-            </option>
-            <option>Paciente</option>
-            <option>Funcionario</option>
-          </select>
-
           <input type="submit" value="Iniciar Sesion" />
         </form>
       </article>
