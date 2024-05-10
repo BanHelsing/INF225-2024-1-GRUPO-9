@@ -6,3 +6,133 @@
     margin-top: 50px;
     width: 70%;
   }
+
+
+/*---------------------------------ESTILOS INDEX----------------------------------*/
+
+.body-index{
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+  background-image: url("../images/3691680.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  height: 100vh;
+  width: 100%;
+}
+.body-index .inicio{
+  flex-direction: column; 
+  align-items: center;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  border-radius: 5%;
+  height: 70%;
+  width: 33%;
+}
+.body-index .inicio .texto{
+  text-align: center;
+  margin: 15px 0 15px 0;
+  font-size: 30px;
+  height: 10%;
+  width: 100%;
+}
+.body-index .inicio .texto2{
+  text-align: center;
+  margin: 15px 0 0 0;
+  font-size: 20px;
+  height: 10%;
+  width: 100%;
+}
+.body-index .inicio .formulario{
+  flex-direction: column;
+  align-items: center; 
+  display: flex;
+  padding: 0 0 0 0;
+  height: 60%;
+  width: 80%;
+}
+.body-index .inicio .formulario .texto-cuestionario{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 17px;
+}
+.body-index .inicio .formulario .entrada{
+  font-size: 15px;
+  height: 12%;
+  width: 80%;
+}
+.body-index .inicio .formulario .selector{
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-size: 15px;
+  height: 12%;
+  width: 80%;
+}
+.body-index .inicio .formulario .boton{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 20px;
+  height: 40px;
+  width: 80%;
+}
+.body-index .inicio .link{
+  margin-top:-10px;
+  text-align: center;
+  background-color: #524ed2;
+  border-radius: 4px;
+  padding-top: 4px;
+  font-size: 20px;
+  color: white;
+  height: 40px;
+  width: 64%;
+}
+.body-index .inicio .link:hover{
+  background-color: #4040bf;
+}
+
+/*-------------------------------ESTILOS REGISTRO---------------------------------*/
+
+.body-index .inicio .texto3{
+  text-align: center;
+  margin: 6px 0 -6px 0;
+  font-size: 20px;
+  height: 10%;
+  width: 100%;
+}
+.body-index .inicio .formulario2{
+  margin-top: -10px;
+  flex-direction: column;
+  align-items: center; 
+  display: flex;
+  padding: 0 0 0 0;
+  height: 65%;
+  width: 80%;
+}
+.body-index .inicio .formulario2 .texto-cuestionario{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 17px;
+}
+.body-index .inicio .formulario2 .entrada{
+  font-size: 15px;
+  height: 12%;
+  width: 80%;
+  margin-bottom: 5px;
+}
+.body-index .inicio .formulario2 .selector{
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-size: 15px;
+  height: 12%;
+  width: 80%;
+}
+.body-index .inicio .formulario2 .boton{
+  padding: 0 0 0 0;
+  margin: -10px 0 0 0;
+  font-size: 20px;
+  height: 40px;
+  width: 80%;
+}
