@@ -47,10 +47,10 @@
           </ul>
         </ul>
         <ul>
-          <li><a href="index.html" class="contrast">Home</a></li>
-          <li><a href="revisarhoras.html" class="contrast">Revisar Horas</a></li>
-          <li><a href="agendar.html" class="contrast">Agendar</a></li>
-          <li><a href="login.html"><button class="primary">Iniciar Sesion</button></a></li>
+          <li><a href="index.php" class="contrast">Home</a></li>
+          <li><a href="revisarhoras.php" class="contrast">Revisar Horas</a></li>
+          <li><a href="agendar.php" class="contrast">Agendar</a></li>
+          <li><a href="login.php"><button class="primary">Iniciar Sesion</button></a></li>
           <li><button class="primary">Registrarse</button></li>
         </ul>
       </nav>
