@@ -14,4 +14,4 @@ Este es el repositorio del *Grupo 9*, cuyos integrantes son:
 
   
 ## Guía para Configurar el Entorno y Ejecutar la Página Web
-* [Setup](https://github.com/BanHelsing/INF225-2024-1-GRUPO-9/instrucciones.md)
+* [Setup](https://github.com/BanHelsing/INF225-2024-1-GRUPO-9/blob/main/instrucciones.md)
