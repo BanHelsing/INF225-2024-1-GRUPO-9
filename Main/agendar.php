@@ -1,5 +1,4 @@
 <?php
-    include('./header.php');
     include('./config/db.php');
 ?>
 
@@ -27,44 +26,42 @@
   
   <div id="header"></div>
   
-  <body style= "background-color:#fff1ee">
+  <body style= "background-color:#fff1ee" >
     <main class="container">
         <article>
-            <form onsubmit="handle_submit()">
+          <form action="./processes/agendarhora.php" method="post">
               <fieldset>
                 <label>
-                  Nombre del Paciente
+                  Rut del Paciente
                   <input
-                    name="Username"
-                    placeholder="Nombre"
+                    name="rut"
+                    placeholder="Rut"
                     autocomplete="given-name"
                   />
                 </label>
+                Fecha de examen
+                <input type="datetime-local" name="datetime-local" aria-label="Datetime local" />
                 <label>
-                    Apellido del Paciente
+                    Tipo de examen
                     <input
-                      name="Username"
-                      placeholder="Apellido"
+                      name="tipo"
+                      placeholder="Tipo examen"
                       autocomplete="given-name"
                     />
                   </label>
                 <label>
-                  Email
+                  Departamento del examen
                   <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
+                    name="depa"
+                    placeholder="Departamento"
                     autocomplete="email"
-                  /> Ingrese fecha y hora para agendar
-                  <input type="datetime-local" name="datetime-local" aria-label="Datetime local" />
+                  /> 
                 </label>
               </fieldset>
-              <input type="submit" value="Ingresar Hora" />
+              <input type="submit" name="Ingresar" value="Ingresar Hora" />
+              <a class="link" href="home.php">Volver al Inicio</a>
             </form>
-          </article>
-          
-
+          </article>       
     </main>
-
   </body>
 </html>

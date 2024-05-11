@@ -1,23 +1,5 @@
 <?php
   include("./config/db.php");
-
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-    $nombre = $_POST["nombre"];
-    $contraseña = $_POST["contraseña"];
-    $tipo = $_POST["tipo"];
-
-    $sql_verificar = "SELECT * FROM users WHERE nombre = '$nombre' AND contraseña = '$contraseña' AND tipo = '$tipo'";
-    $resultado = $connection->query($sql_verificar);
-
-    if ($resultado->num_rows > 0) {
-      header("Location: home.php");
-      exit;
-    } else {
-      echo '<script>alert("Usuario, contraseña o tipo incorrectos.");</script>';
-    }
-  }
-  $connection->close();
 ?>
 
 <!DOCTYPE html>
@@ -37,12 +19,12 @@
     <main class="inicio">
       <h1 class="texto">Bienvenido a SRH</h1>
 
-      <form class="formulario" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+      <form class="formulario" action="./processes/iniciar-sesion.php" method="post">
         <h2 class="texto-cuestionario">Nombre de Usuario</h2>
-        <input class="entrada" type="texto" name="nombre" placeholder="Nombre.Apellido">
+        <input class="entrada" type="text" name="nombre" placeholder="Nombre.Apellido">
 
         <h2 class="texto-cuestionario">Contraseña</h2>
-        <input class="entrada" type="texto" name="contraseña" placeholder="Contraseña">
+        <input class="entrada" type="password" name="contraseña" placeholder="Contraseña">
 
         <h2 class="texto-cuestionario">Tipo de Cuenta</h2>
         <select class="selector" name="tipo">

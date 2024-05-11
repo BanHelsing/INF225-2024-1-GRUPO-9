@@ -17,16 +17,8 @@
   <body class="body-revisarhoras">
     <main class="inicio">
       <h1 class="texto">Tus Horas de Examenes</h1>
-
-      <form class="formulario" action="./processes/revisarhora.php" method="post">
-        <h2 class="texto-cuestionario">Ingrese su Rut</h2>
-        <input class="entrada" type="text" name="rut" placeholder="Rut">
-        <button class="boton" type="submit">Buscar Horas</button>
-      </form>
-      
+      <?php include 'revisarhorasadmin.php';?> 
       <a class="link" href="home.php">Volver al Inicio</a>
-      <h1 class="texto"> </h1>
-      <a class="link" href="revisarhoras2.php">Revisar Horas como Funcionario</a>
     </main>
   </body>
 </html>

@@ -14,7 +14,7 @@
   justify-content: center; 
   align-items: center;
   display: flex;
-  background-image: url("../images/3691680.jpg");
+  background-image: url("./assets/images/3691680.jpg");
   background-position: center;
   background-size: cover;
   padding: 0 0 0 0;
@@ -135,4 +135,89 @@
   font-size: 20px;
   height: 40px;
   width: 80%;
+}
+
+/*-------------------------------ESTILOS REVISAR----------------------------------*/
+
+.body-revisarhoras{
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+  background-image: url("./assets/images/3691680.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  height: 100vh;
+  width: 100%;
+}
+.body-revisarhoras .inicio{
+  flex-direction: column; 
+  align-items: center;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  border-radius: 5%;
+  height: 70%;
+  width: 33%;
+}
+.body-revisarhoras .inicio .texto{
+  text-align: center;
+  margin: 15px 0 15px 0;
+  font-size: 30px;
+  height: 10%;
+  width: 100%;
+}
+.body-revisarhoras .inicio .texto2{
+  text-align: center;
+  margin: 15px 0 0 0;
+  font-size: 20px;
+  height: 10%;
+  width: 100%;
+}
+.body-revisarhoras .inicio .formulario{
+  flex-direction: column;
+  align-items: center; 
+  display: flex;
+  padding: 0 0 0 0;
+  height: 60%;
+  width: 80%;
+}
+.body-revisarhoras .inicio .formulario .texto-cuestionario{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 17px;
+}
+.body-revisarhoras .inicio .formulario .entrada{
+  font-size: 15px;
+  height: 12%;
+  width: 80%;
+}
+.body-revisarhoras .inicio .formulario .selector{
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-size: 15px;
+  height: 12%;
+  width: 80%;
+}
+.body-revisarhoras .inicio .formulario .boton{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-size: 20px;
+  height: 40px;
+  width: 80%;
+}
+.body-revisarhoras .inicio .link{
+  margin-top:-10px;
+  text-align: center;
+  background-color: #524ed2;
+  border-radius: 4px;
+  padding-top: 4px;
+  font-size: 20px;
+  color: white;
+  height: 40px;
+  width: 64%;
+}
+.body-revisarhoras .inicio .link:hover{
+  background-color: #4040bf;
 }
