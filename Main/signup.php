@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html data-theme="light" lang="en" style= "background-color:#fff1ee">
+<html data-theme="light" lang="en" style= "background-image: url('./assets/images/Background.jpg'); background-position: center; background-size: cover;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

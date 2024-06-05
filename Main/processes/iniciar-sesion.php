@@ -11,6 +11,11 @@
     $resultado = $connection->query($sql_verificar);
 
     if ($resultado->num_rows > 0) {
+      session_start();
+      $usuario = $nombre;
+
+      $_SESSION['nombre_usuario'] = $usuario;
+
       header("Location: ../home.php");
       exit;
     } else {
