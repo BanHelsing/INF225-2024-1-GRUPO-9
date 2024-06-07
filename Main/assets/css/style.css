@@ -222,24 +222,19 @@
 /*--------------------------------ESTILOS HOME-----------------------------------*/
 
 .body-home {
-  justify-content: center;
-  align-items: center;
-  display: flex;
   height: 100vh;
   margin: 0 0 0 0;
   padding: 20px;
 }
+.body-home .barra {
 
-.body-home .contenedor {
-  justify-content: space-between;
-  display: flex;
-  width: 100%; 
 }
+.body-home .barra .texto{
 
+}
+.body-home .contenedor {
+
+}
 .body-home .contenedor .columna {
-  flex-direction: column;
-  align-items: center;
-  height: 650px;
-  display: flex;
-  width: 33%;
+
 }
