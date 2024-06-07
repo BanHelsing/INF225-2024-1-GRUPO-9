@@ -1,15 +1,15 @@
 <?php
-    include('./config/db.php');
+    #include('./config/db.php');
 
 
-  session_start();
+  #session_start();
 
-  if (isset($_SESSION['nombre_usuario'])) {
-    $nombreUsuario = $_SESSION['nombre_usuario'];
-  } else {
-    header("Location: ./index.php");
-    exit();
-}
+  #if (isset($_SESSION['nombre_usuario'])) {
+    #$nombreUsuario = $_SESSION['nombre_usuario'];
+  #} else {
+    #header("Location: ./index.php");
+    #exit();
+#}
 ?>
 
 <!DOCTYPE html>
@@ -19,10 +19,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SRH</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/icons8-caduceus-16.png"/>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
-  <body class="body-home">
-
+  <body>
+    <div class="core">
+      Sasas
+    </div>
   </body>
 </html>

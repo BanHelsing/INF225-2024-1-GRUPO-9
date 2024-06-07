@@ -13,7 +13,7 @@
       type="image/x-icon"
       href="./assets/images/icons8-caduceus-16.png"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.indigo.min.css"

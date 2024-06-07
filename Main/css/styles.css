@@ -140,7 +140,7 @@
   justify-content: center; 
   align-items: center;
   display: flex;
-  background-image: url("./assets/images/Background.jpg");
+  background-image: url("images/Background.jpg");
   background-position: center;
   background-size: cover;
   padding: 0 0 0 0;
@@ -221,20 +221,7 @@
 
 /*--------------------------------ESTILOS HOME-----------------------------------*/
 
-.body-home {
-  height: 100vh;
-  margin: 0 0 0 0;
-  padding: 20px;
-}
-.body-home .barra {
 
-}
-.body-home .barra .texto{
-
-}
-.body-home .contenedor {
-
-}
-.body-home .contenedor .columna {
-
+.core{
+  background-color: #524ed2;
 }
