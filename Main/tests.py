@@ -22,5 +22,12 @@ class TestMain(unittest.TestCase):
         print(response.status_code)
         self.assertEqual(response.status_code, 200)
 
+    def test_consultar_hora(self):
+        post = {"rut": "a"}
+        response = requests.get("http://localhost:3000/INF225-2024-1-GRUPO-9/Main/processes/consulta_hora.php", json=post)
+        print(response.status_code)
+        self.assertEqual(response.status_code, 200)
+        #self.assertIn('El rut ingresado no tiene horas agendadas',response.text)
+
 if __name__ == '__main':
     unittest.main()

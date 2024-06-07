@@ -18,7 +18,7 @@
     <main class="inicio">
       <h1 class="texto">Tus Horas de Examenes</h1>
 
-      <form class="formulario" action="./processes/revisarhora.php" method="post">
+      <form class="formulario" action="./processes/consulta_hora.php" method="post">
         <h2 class="texto-cuestionario">Ingrese su Rut</h2>
         <input class="entrada" type="text" name="rut" placeholder="Rut">
         <button class="boton" type="submit">Buscar Horas</button>
