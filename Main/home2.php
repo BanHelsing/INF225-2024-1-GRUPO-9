@@ -56,7 +56,7 @@
         </select>
         <input class="home-entrada" id="m_deriva" name="medico_deriva" placeholder="Medico" required>
         <input class="home-entrada" id="diagnostico" name="diagnostico" placeholder="Posible Diagnostico">       
-        <button class="home-boton" type="submit">Guardar Información</button>
+        <button class="home-boton" style="margin: 15px 0 0 0;" type="submit">Guardar Información</button>
       </form>
     </div>
 
@@ -69,11 +69,15 @@
         </form>
       </div>
     
-      <div class="home-opcion" style="margin: 50px 0 0 0;"> 
-        <form class="home-formulario" action="./processes/consulta_hora.php" method="post">
+      <div class="home-opcion" style="margin: 20px 0 0 0;"> 
+        <form class="home-formulario" action="./processes/agendarhora.php" method="post">
           <h2 class="home-texto-cuestionario">Agendar Hora</h2>
-          <input class="home-entrada" type="text" name="rut" placeholder="Rut">
-          <button class="home-boton" style="margin: 20px 0 20px 0;" type="submit">Agendar</button>
+          <input class="home-entrada" id="rut" name="rut" placeholder="Rut" required>
+          <input class="home-entrada" id="tipo" name="tipo" placeholder="Tipo de Examen" required>
+          <input class="home-entrada" id="depa" name="depa" placeholder="Departamento" required>
+          <h5 style="font-size: 15px; margin:0px 0px 0px -190px;">Hora Deseada:</h5>
+          <input class="home-entrada" type="datetime-local" id="datetime-local" name="datetime-local" required>
+          <button class="home-boton" style="margin: 20px 0 0 0;" type="submit">Agendar</button>
         </form>
       </div>
     </div>

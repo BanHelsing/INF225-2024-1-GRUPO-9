@@ -1,17 +1,12 @@
 <?php
 
 include ("../config/db.php");
+session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $rut=$_POST['rut'];
-
-    // $consulta="SELECT * FROM exam WHERE rut='$rut'";
-    // $resultado=$connection->query($consulta);
-    // echo "Hola mundo";
-
     $consulta=mysqli_query($connection,"SELECT * FROM exam WHERE rut='$rut'");
     $verificacion=mysqli_num_rows($consulta);
-    //header("Location: ../revisarhoras.php");
     $connection->close();
 
     }
@@ -26,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="icon" type="image/x-icon" href="./assets/images/icons8-caduceus-16.png"/>
     <link rel="stylesheet" href="css/styles.css"/>
   </head>
+
 <?php
 if ($verificacion!=0){
     $contador=1;
@@ -42,5 +38,10 @@ if ($verificacion!=0){
 }else{
     echo "El rut ingresado no tiene horas agendadas";
 }
+    if ($_SESSION['usuario_tipo'] == 'Funcionario') {
+        ?> <a type="button" href="../home2.php">Volver a pagina anterior</a><?php
+    } elseif ($_SESSION['usuario_tipo'] == 'Paciente') {
+        ?> <a type="button" href="../home.php">Volver a pagina anterior</a><?php
+    }
+    exit;
 ?>
-    <a type="button" href="../home.php">Volver a pagina anterior</a>
