@@ -221,8 +221,6 @@
 
 /*--------------------------------ESTILOS HOME-----------------------------------*/
 
-/* General styling */
-/* General styling */
 .home-body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
@@ -230,7 +228,6 @@
   padding: 0;
 }
 
-/* Navbar styling */
 .home-bar {
   display: flex;
   justify-content: space-between;
@@ -266,7 +263,6 @@
   margin-right: 5px;
 }
 
-/* Container styling */
 .home-contenedor {
   display: flex;
   justify-content: space-around;

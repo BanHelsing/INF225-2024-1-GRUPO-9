@@ -15,9 +15,13 @@
       $usuario = $nombre;
 
       $_SESSION['nombre_usuario'] = $usuario;
+      $_SESSION['usuario_tipo'] = $tipo;
 
-      header("Location: ../home.php");
-      exit;
+      if ($tipo == "Funcionario"){
+        header("Location: ../home2.php");
+      } else {
+        header("Location: ../home.php");
+      }
     } else {
       echo '<script>alert("Usuario, contraseña o tipo incorrectos.");</script>';
       header("Location: ../index.php");

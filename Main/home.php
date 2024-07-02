@@ -54,6 +54,5 @@
     </div>
   </div>
 
-  <a href="informacion_cliente.php" class="home-agregar-usuario">Agregar Usuario</a>
 </body>
 </html>
