@@ -43,4 +43,4 @@ if ($verificacion!=0){
     echo "El rut ingresado no tiene horas agendadas";
 }
 ?>
-    <a type="button" href="../revisarhoras.php">Volver a pagina anterior</a>
+    <a type="button" href="../home.php">Volver a pagina anterior</a>
