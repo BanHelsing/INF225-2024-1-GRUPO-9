@@ -16,7 +16,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SRH</title>
-  <link rel="icon" type="image/x-icon" href="./assets/images/icons8-caduceus-16.png">
+  <link rel="icon" href="images/cardiogram.png" type="image/png">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="home-body">
@@ -37,19 +37,19 @@
   </div>
 
   <div class="home-contenedor">
-    <div class="home-opcion">
+    <div class="home-opcion" style="margin: 150px 0 0 0;">
       <form class="home-formulario" action="./processes/consulta_hora.php" method="post">
-        <h2 class="home-texto-cuestionario">Ingrese su Rut</h2>
+        <h2 class="home-texto-cuestionario">Buscar Horas</h2>
         <input class="home-entrada" type="text" name="rut" placeholder="Rut">
-        <button class="home-boton" type="submit">Buscar Horas</button>
+        <button class="home-boton" style="margin: 20px 0 20px 0;" type="submit">Buscar</button>
       </form>
     </div>
 
-    <div class="home-opcion">
+    <div class="home-opcion" style="margin: 150px 0 0 0;">
       <form class="home-formulario" action="./processes/consulta_hora.php" method="post">
-        <h2 class="home-texto-cuestionario">Ingrese su Rut</h2>
+        <h2 class="home-texto-cuestionario">Agendar Horat</h2>
         <input class="home-entrada" type="text" name="rut" placeholder="Rut">
-        <button class="home-boton" type="submit">Agendar Hora</button>
+        <button class="home-boton" style="margin: 20px 0 20px 0;" type="submit">Agendar</button>
       </form>
     </div>
   </div>
